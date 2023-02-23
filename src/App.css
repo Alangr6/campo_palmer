@@ -1,10 +1,112 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Inter:wght@400&display=swap');
 
-.title-main{
+/*HEADER*/
+
+/*NavBar*/
+.navbar {
+  background-color: #a0aba0f1;
+  height: 6vh;
   display: flex;
-  justify-content: space-around;
-  margin-top: 1.5rem;
-}
-.page-title{
-  text-align: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  -webkit-box-shadow: 0px 21px 43px -21px rgba(0, 0, 0, 0.83);
+  -moz-box-shadow: 0px 21px 43px -21px rgba(0, 0, 0, 0.83);
+  box-shadow: 0px 21px 43px -21px rgba(0, 0, 0, 0.83);
 }
 
+.box-logo {
+  width: 3%;
+  padding-left: 1%;
+}
+
+.logo {
+  height: 5vh;
+}
+
+.company-name {
+  font-family: 'Gloock', serif;
+  font-size: 1.7rem;
+}
+
+/*MAIN*/
+
+/*main-sec*/
+.main-sec {
+  display: flex;
+  height: 70vh;
+  width: 100vw;
+  background-color: #A0ABA0;
+}
+
+.main-sec-img {
+  height: 100%;
+}
+
+.page-title-box {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  margin: auto;
+  font-size: 1.7rem;
+  color: #f3ece6;
+}
+
+/*first-sec*/
+.first-sec {
+  height: 88vh;
+  background-color: #FAF2EA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-sec-title {
+  color: #A0ABA0;
+  padding-top: 16vh;
+  font-size: 2.4rem;
+}
+
+.card-box {
+  display: flex;
+  justify-content: space-evenly;
+  width: 75vw;
+  margin-top: 4vh;
+}
+
+.card {
+  background-color: #eedecd;
+  width: 22%;
+  border-radius: 1.4%;
+  text-align: center;
+  -webkit-box-shadow: 18px 18px 45px -19px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow: 18px 18px 45px -19px rgba(0, 0, 0, 0.51);
+  box-shadow: 18px 18px 45px -19px rgba(0, 0, 0, 0.51);
+}
+
+.card-image{
+  width: 100%;
+  border-radius: 1.4%;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-title {
+  color: #A0ABA0;
+  padding: 2% 0 2% 0;
+}
+
+.card-separator {
+  height: 3px;
+  background-color: #A0ABA0;
+  width: 30%;
+}
+
+.card-text {
+  padding: 2% 2% 2% 2%;
+}
