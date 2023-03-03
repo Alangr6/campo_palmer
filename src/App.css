@@ -1,5 +1,7 @@
 /*FONTS*/
 @import url('https://fonts.googleapis.com/css2?family=Gloock&family=Inter:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 
 /*HEADER*/
 
@@ -9,104 +11,151 @@
   height: 6vh;
   display: flex;
   align-items: center;
+  justify-content: center;
   position: fixed;
   top: 0;
+  z-index: 1;
   width: 100%;
   -webkit-box-shadow: 0px 21px 43px -21px rgba(0, 0, 0, 0.83);
   -moz-box-shadow: 0px 21px 43px -21px rgba(0, 0, 0, 0.83);
   box-shadow: 0px 21px 43px -21px rgba(0, 0, 0, 0.83);
 }
-
 .box-logo {
   width: 3%;
   padding-left: 1%;
+  padding-right: 2.5%;
 }
-
 .logo {
   height: 5vh;
 }
-
 .company-name {
   font-family: 'Gloock', serif;
-  font-size: 1.7rem;
+  font-size: 1.7vw;
 }
 
 /*MAIN*/
 
 /*main-sec*/
 .main-sec {
-  display: flex;
-  height: 70vh;
-  width: 100vw;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 50% 50%;
+  align-items: center;
+  height: 70vmin;
+  width: 100%;
   background-color: #A0ABA0;
+  overflow: hidden;
 }
-
+.main-image-left {
+  transform: rotate(250deg);
+  grid-row: 2;
+}
+.main-image-right {
+  transform: scaleX(-1);
+}
 .main-sec-img {
-  height: 100%;
+  width: 100%;
 }
-
 .page-title-box {
   text-align: center;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
   margin: auto;
-  font-size: 1.7rem;
+  font-size: 1.8vw;
   color: #f3ece6;
+  grid-row: span 2;
+  grid-column: 2;
 }
 
 /*first-sec*/
 .first-sec {
-  height: 88vh;
   background-color: #FAF2EA;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 13vmin;
 }
-
 .box-sec-title {
   color: #A0ABA0;
-  padding-top: 16vh;
-  font-size: 2.4rem;
+  padding-top: 13vmin;
+  font-size: 2vw;
 }
-
 .card-box {
   display: flex;
   justify-content: space-evenly;
   width: 75vw;
-  margin-top: 4vh;
+  margin-top: 4vmin;
 }
-
 .card {
   background-color: #eedecd;
-  width: 22%;
+  width: 19%;
   border-radius: 1.4%;
   text-align: center;
   -webkit-box-shadow: 18px 18px 45px -19px rgba(0, 0, 0, 0.51);
   -moz-box-shadow: 18px 18px 45px -19px rgba(0, 0, 0, 0.51);
   box-shadow: 18px 18px 45px -19px rgba(0, 0, 0, 0.51);
 }
-
-.card-image{
+.card-image {
   width: 100%;
   border-radius: 1.4%;
 }
-
-.card-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .card-title {
   color: #A0ABA0;
-  padding: 2% 0 2% 0;
+  padding-bottom: 1%;
+  font-size: 1.2vw;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
 }
-
 .card-separator {
   height: 3px;
   background-color: #A0ABA0;
   width: 30%;
 }
-
 .card-text {
-  padding: 2% 2% 2% 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2% 4% 8% 4%;
+  font-size: 0.9vw;
 }
+
+
+/*about-sec*/
+.about-sec {
+  display: flex;
+  background-color: #FAF2EA;
+  color: #A0ABA0;
+}
+
+.image-box-about-sec {
+  width: 50%;
+}
+
+.about-sec-image {
+  width: 100%;
+}
+
+.about-box {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  padding: 0 7.5vw 0 7.5vw;
+}
+
+.about-box > p {
+  margin-bottom: 2.5vh;
+  font-size: 0.95vw;
+  color: black;
+  font-family: 'Yeseva One', cursive;/*consultar fuente si esta, la fina o la del titulo navbar*/
+}
+
+.about-title {
+  font-size: 2vw;
+  padding-bottom: 5vh;
+  color: #A0ABA0;/*consultar color*/
+}
+
+/*scrollbar*/
