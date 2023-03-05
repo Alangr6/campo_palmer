@@ -69,7 +69,7 @@ function App() {
               className="main-sec-img"
               title="Palm tree leaf"
               alt="Palm tree leaf, envolving the page title"
-              width="100%"
+              width="auto"
               height="auto"
             />
           </div>
@@ -83,7 +83,7 @@ function App() {
                 className="card-image"
                 title="Palm trees farm"
                 alt="Palm trees growth"
-                width="100%"
+                width="auto"
                 height="auto"
               />
               <div className="card-text">
@@ -96,13 +96,13 @@ function App() {
                 </p>
               </div>
             </div>
-            <div className="card reveal">
+            <div className="card reveal middlecard-separator">
               <img
                 src={palm2}
                 className="card-image"
                 title="Not pruned palm tree"
                 alt="Not pruned palm tree growth"
-                width="100%"
+                width="auto"
                 height="auto"
               />
               <div className="card-text">

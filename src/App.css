@@ -284,11 +284,6 @@ body::-webkit-scrollbar-thumb:active {
 }
 
 /*MEDIA QUERY ADAPTATIONS*/
-@media (max-width: 1200px) {
-  /*first sec*/
-
-}
-
 @media (max-width: 1400px) {
 
   /*first sec*/
@@ -301,6 +296,10 @@ body::-webkit-scrollbar-thumb:active {
     color: #A0ABA0;
     padding-top: 13vmin;
     font-size: 2.5vw;
+  }
+
+  .card-title {
+    font-size: 1.5vw;
   }
 
   .card-text {
@@ -323,13 +322,16 @@ body::-webkit-scrollbar-thumb:active {
   .contact-sec {
     height: 20vw;
   }
+
   form {
     width: 95%;
   }
+
   footer>h2,
   footer>h3 {
     margin-bottom: 5vh;
     margin-top: 5vh;
+    font-size: 2vw;
   }
 
   input {
@@ -347,5 +349,146 @@ body::-webkit-scrollbar-thumb:active {
     width: 16vw;
     height: 3.1vw;
     font-size: 1.3vw;
+  }
+}
+
+@media (max-width: 1060px) {
+
+  /*first-sec*/
+  .box-sec-title {
+    font-size: 4vw;
+    padding-bottom: 2vw;
+  }
+
+  .card-box {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card {
+    width: 50%;
+    display: flex;
+  }
+
+  .card-image {
+    width: 40%;
+  }
+
+  .card-title {
+    font-size: 2vw;
+  }
+
+  .card-separator {
+    width: 45%;
+    margin-bottom: 0.7vw;
+  }
+
+  .card-text {
+    justify-content: center;
+    font-size: 1.5vw;
+  }
+
+  .middlecard-separator {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
+
+  /*contact sec*/
+  footer>h2,
+  footer>h3 {
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+  }
+}
+
+@media (max-width: 900px) {
+
+  /*work-sec and about-sec*/
+  .image-box-width {
+    width: 30%;
+    display: flex;
+  }
+
+  .sec-box {
+    width: 70%;
+  }
+
+  .sec-box>p {
+    margin-bottom: 2vh;
+    font-size: 1.5vw;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+  }
+
+  .sec-title {
+    font-size: 2.5vw;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    color: #A0ABA0;
+  }
+
+  /*for-work-sec*/
+  .work-color {
+    background-color: #A0ABA0;
+    color: #FAF2EA;
+  }
+
+  .work-text-box-width {
+    width: 70%;
+  }
+}
+
+@media (max-width: 700px) {
+  /*HEADER*/
+
+  /*NavBar*/
+  .box-logo {
+    padding: 0 4% 0 4%;
+  }
+  .company-name {
+    font-size: 1.3rem;
+  }
+
+  /*MAIN*/
+
+  /*contact-sec*/
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+  }
+
+  .contact-sec {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  input {
+    width: 100%;
+    height: 5.1vw;
+    margin-bottom: 5vw;
+    border: solid 2px black;
+  }
+
+  input::placeholder {
+    font-size: 2.2vw;
+  }
+
+  button {
+    width: 18%;
+    height: 5.1vw;
+    font-size: 2.5vw;
+  }
+
+  footer>h2 {
+    font-size: 4vw !important;
+  }
+
+  footer>h3 {
+    font-size: 3vw;
   }
 }
