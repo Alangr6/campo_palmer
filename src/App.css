@@ -3,6 +3,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 
+/*SHOW IN EFFECT*/
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 1.5s ease;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
 /*HEADER*/
 
 /*NavBar*/
@@ -21,16 +34,14 @@
   box-shadow: 0px 21px 43px -21px rgba(0, 0, 0, 0.83);
 }
 .box-logo {
-  width: 3%;
-  padding-left: 1%;
-  padding-right: 2.5%;
+  padding: 0 0.9% 0 0.9%;
 }
 .logo {
   height: 5vh;
 }
 .company-name {
   font-family: 'Gloock', serif;
-  font-size: 1.7vw;
+  font-size: 1.7rem;
 }
 
 /*MAIN*/
@@ -41,7 +52,7 @@
   grid-template-columns: 20% 60% 20%;
   grid-template-rows: 50% 50%;
   align-items: center;
-  height: 70vmin;
+  height: 36vw;
   width: 100%;
   background-color: #A0ABA0;
   overflow: hidden;
@@ -51,7 +62,7 @@
   grid-row: 2;
 }
 .main-image-right {
-  transform: scaleX(-1);
+  transform: rotate(55deg);
 }
 .main-sec-img {
   width: 100%;
@@ -119,24 +130,19 @@
   font-size: 0.9vw;
 }
 
-
-/*about-sec*/
-.about-sec {
+/*work-sec and about-sec*/
+.sec {
   display: flex;
-  background-color: #FAF2EA;
-  color: #A0ABA0;
+  width: 100% !important;
 }
-
-.image-box-about-sec {
+.image-box-width {
   width: 50%;
+  display: flex;
 }
-
-.about-sec-image {
+.sec-image {
   width: 100%;
 }
-
-.about-box {
-  width: 50%;
+.sec-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -144,18 +150,81 @@
   text-align: justify;
   padding: 0 7.5vw 0 7.5vw;
 }
-
-.about-box > p {
+.sec-box > p {
   margin-bottom: 2.5vh;
-  font-size: 0.95vw;
-  color: black;
-  font-family: 'Yeseva One', cursive;/*consultar fuente si esta, la fina o la del titulo navbar*/
+  font-size: 1vw;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
 }
-
-.about-title {
+.sec-title {
   font-size: 2vw;
   padding-bottom: 5vh;
-  color: #A0ABA0;/*consultar color*/
+  color: #A0ABA0;
+}
+/*for-work-sec*/
+.work-color {
+  background-color: #A0ABA0;
+  color: #FAF2EA;
+}
+.work-text-box-width {
+  width: 50%;
+}
+/*for-about-sec*/
+.about-sec {
+  margin-bottom: 4vw;
+}
+.about-color {
+  background-color: #FAF2EA;
+  color: #A0ABA0;
+}
+.about-p-color {
+  color: black;
+}
+
+
+/*contact-sec*/
+.contact-sec {
+  position: fixed;
+  bottom: 0;
+  background-color: #faf2eac7;
+  color: #494d49;
+  height: 4vw;
+  width: 100%;
+  display: flex;
+}
+.contact-sec-title {
+  width: 40%;
+  font-size: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.number-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  font-size: 1.2vw;
 }
 
 /*scrollbar*/
+body::-webkit-scrollbar {
+  width: 0.5vw;
+  height: 0.5vw;
+}
+/* Ponemos un color de fondo y redondeamos las esquinas del thumb */
+body::-webkit-scrollbar-thumb {
+  background: #8b8b8b;
+  border-radius: 4px;
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+body::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Cambiamos el fondo cuando esté en active */
+body::-webkit-scrollbar-thumb:active {
+  background-color: #999999;
+}
