@@ -1,10 +1,10 @@
 import logo from "./images/logo.svg";
-import mainsec from "./images/main-sec1.png";
-import palm from "./images/palm12.png";
-import palm2 from "./images/palm5.png";
-import palm3 from "./images/palm1.png";
-import junglepalm from "./images/sec3.png";
-import worksecimg from "./images/work-sec.png";
+import mainsec from "./images/main-sec1.webp";
+import palm from "./images/palm12.webp";
+import palm2 from "./images/palm5.webp";
+import palm3 from "./images/palm1.webp";
+import junglepalm from "./images/sec3.webp";
+import worksecimg from "./images/work-sec.webp";
 import "./App.css";
 
 function App() {
