@@ -233,7 +233,6 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-
 /*scrollbar*/
 body::-webkit-scrollbar {
   width: 0.5vw;
@@ -249,4 +248,38 @@ body::-webkit-scrollbar-thumb:hover {
 }
 body::-webkit-scrollbar-thumb:active {
   background-color: #999999;
+}
+
+/*MEDIA QUERY ADAPTATIONS*/
+@media (max-width: 1300px) {
+  /*first sec*/
+  .card-box {
+    width: 100vw;
+    margin-top: 4vmin;
+  }
+
+  .box-sec-title {
+    color: #A0ABA0;
+    padding-top: 13vmin;
+    font-size: 2.5vw;
+  }
+
+  /*contact sec*/
+  form {
+    width: 95%;
+  }
+  input {
+    width: 16vw;
+    height: 3.1vw;
+    border: solid 3px black;
+    border-radius: 5px;
+  }
+  input::placeholder {
+    font-size: 1.3vw;
+  }
+  button {
+    width: 16vw;
+    height: 3.1vw;
+    font-size: 1.3vw;
+  }
 }

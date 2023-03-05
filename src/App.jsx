@@ -37,6 +37,8 @@ function App() {
               className="logo"
               title="Palmer Camp logo"
               alt="White and transparen palm tree"
+              width="100%"
+              height="auto"
             />
           </div>
           <div className="box-title">
@@ -52,6 +54,8 @@ function App() {
               className="main-sec-img"
               title="Palm tree leaf"
               alt="Palm tree leaf, envolving the page title"
+              width="100%"
+              height="auto"
             />
           </div>
           <div className="page-title-box">
@@ -65,6 +69,8 @@ function App() {
               className="main-sec-img"
               title="Palm tree leaf"
               alt="Palm tree leaf, envolving the page title"
+              width="100%"
+              height="auto"
             />
           </div>
         </section>
@@ -77,6 +83,8 @@ function App() {
                 className="card-image"
                 title="Palm trees farm"
                 alt="Palm trees growth"
+                width="100%"
+                height="auto"
               />
               <div className="card-text">
                 <h3 className="card-title reveal">BIO FARM</h3>
@@ -94,6 +102,8 @@ function App() {
                 className="card-image"
                 title="Not pruned palm tree"
                 alt="Not pruned palm tree growth"
+                width="100%"
+                height="auto"
               />
               <div className="card-text">
                 <h3 className="card-title reveal">GROWTH</h3>
@@ -111,6 +121,8 @@ function App() {
                 className="card-image"
                 title="Pruned palm"
                 alt="Pruned palm tree, final product"
+                width="100%"
+                height="auto"
               />
               <div className="card-text">
                 <h3 className="card-title reveal">FINAL PRODUCT</h3>
@@ -156,6 +168,8 @@ function App() {
               className="sec-image"
               title="Work section palm tree"
               alt="Palm tree work section image"
+              width="100%"
+              height="auto"
             />
           </div>
         </section>
@@ -166,6 +180,8 @@ function App() {
               className="sec-image"
               title="About section palm tree"
               alt="Palm tree about section image"
+              width="100%"
+              height="auto"
             />
           </div>
           <div className="sec-box image-box-width">
@@ -196,10 +212,7 @@ function App() {
       </main>
       <footer className="contact-sec">
         <h2>CONTACT US!</h2>
-        <form
-          action="https://formsubmit.co/your@email.com"
-          method="POST"
-        >
+        <form action="https://formsubmit.co/@gmail.com" method="POST">
           <input type="text" name="name" id="" placeholder="Name" required />
           <input type="email" name="email" id="" placeholder="Email" required />
           <input type="phone" name="phone" id="" placeholder="Phone" required />
