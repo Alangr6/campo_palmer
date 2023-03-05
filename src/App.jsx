@@ -1,9 +1,9 @@
 import logo from "./images/logo.svg";
-import mainsec from "./images/main-sec1.webp";
-import palm from "./images/palm12.webp";
-import palm2 from "./images/palm5.webp";
-import palm3 from "./images/palm1.webp";
-import junglepalm from "./images/sec3.webp";
+import mainsec from "./images/main-sec.webp";
+import palm from "./images/card1.webp";
+import palm2 from "./images/card2.webp";
+import palm3 from "./images/card3.webp";
+import aboutsecimg from "./images/about-sec.webp";
 import worksecimg from "./images/work-sec.webp";
 import "./App.css";
 
@@ -16,7 +16,7 @@ function App() {
     for (let i = 0; i < reveals.length; i++) {
       let windowheight = window.innerHeight;
       let revealtop = reveals[i].getBoundingClientRect().top;
-      let revealpoint = 150;
+      let revealpoint = 100;
 
       if (revealtop < windowheight - revealpoint) {
         reveals[i].classList.add("active");
@@ -138,7 +138,7 @@ function App() {
         </section>
         <section className="sec work-color">
           <div className="sec-box work-text-box-width">
-            <h2 className="sec-title work-color reveal">WORK</h2>
+            <h2 className="sec-title work-color reveal">TRABAJO</h2>
             <p className="reveal">
               Palmera de aceite: También conocida como palma de aceite africana,
               es una especie muy valiosa que produce un aceite rico en
@@ -176,7 +176,7 @@ function App() {
         <section className="sec">
           <div className="image-box-width">
             <img
-              src={junglepalm}
+              src={aboutsecimg}
               className="sec-image"
               title="About section palm tree"
               alt="Palm tree about section image"
@@ -203,20 +203,18 @@ function App() {
             <p className="reveal">
               Gracias a nuestra dedicación y compromiso con la calidad y el
               medio ambiente, hemos logrado ganar la confianza y lealtad de
-              nuestros clientes en todo el mundo. En Campo Palmer, nos
-              enorgullece ser una empresa que se preocupa por el medio ambiente
-              y por crear productos sostenibles que beneficien a todos.
+              nuestros clientes en todo el mundo.
             </p>
           </div>
         </section>
       </main>
       <footer className="contact-sec">
-        <h2>CONTACT US!</h2>
+        <h2>CONTACTANOS!</h2>
         <form action="https://formsubmit.co/@gmail.com" method="POST">
-          <input type="text" name="name" id="" placeholder="Name" required />
+          <input type="text" name="name" id="" placeholder="Nombre" required />
           <input type="email" name="email" id="" placeholder="Email" required />
-          <input type="phone" name="phone" id="" placeholder="Phone" required />
-          <button type="submit">Submit</button>
+          <input type="phone" name="phone" id="" placeholder="Teléfono" required />
+          <button type="submit">Enviar</button>
         </form>
         <h3>+34 673 670 067</h3>
       </footer>
