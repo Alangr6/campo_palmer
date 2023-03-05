@@ -4,7 +4,6 @@ import palm from "./images/palm12.png";
 import palm2 from "./images/palm5.png";
 import palm3 from "./images/palm1.png";
 import junglepalm from "./images/sec3.png";
-import junglepalm2 from "./images/sec2.jpg"; /**probar esta foto*/
 import worksecimg from "./images/work-sec.png";
 import "./App.css";
 
@@ -43,7 +42,7 @@ function App() {
       <main>
         <section className="main-sec">
           <div className="main-image-left">
-            <img src={mainsec} className="main-sec-img" alt="" />
+            <img src={mainsec} className="main-sec-img" alt="Palm tree leaf" />
           </div>
           <div className="page-title-box">
             <h1>VENTA DE PALMERAS ALMERÍA</h1>
@@ -51,14 +50,14 @@ function App() {
             <h1>CAMPO DE NÍJAR</h1>
           </div>
           <div className="main-image-right">
-            <img src={mainsec} className="main-sec-img" alt="" />
+            <img src={mainsec} className="main-sec-img" alt="Palm tree leaf" />
           </div>
         </section>
         <section className="first-sec">
           <h2 className="box-sec-title reveal">CRIADAS ECOLÓGICAMENTE</h2>
           <div className="card-box">
             <div className="card reveal">
-              <img src={palm} className="card-image" alt="" />
+              <img src={palm} className="card-image" alt="Palm trees growth" />
               <div className="card-text">
                 <h3 className="card-title reveal">BIO FARM</h3>
                 <div className="card-separator reveal"></div>
@@ -70,7 +69,7 @@ function App() {
               </div>
             </div>
             <div className="card reveal">
-              <img src={palm2} className="card-image" alt="" />
+              <img src={palm2} className="card-image" alt="Not pruned palm tree" />
               <div className="card-text">
                 <h3 className="card-title reveal">GROWTH</h3>
                 <div className="card-separator reveal"></div>
@@ -82,7 +81,7 @@ function App() {
               </div>
             </div>
             <div className="card reveal">
-              <img src={palm3} className="card-image" alt="" />
+              <img src={palm3} className="card-image" alt="Pruned palm tree, final product" />
               <div className="card-text">
                 <h3 className="card-title reveal">FINAL PRODUCT</h3>
                 <div className="card-separator reveal"></div>
@@ -122,12 +121,12 @@ function App() {
             </p>
           </div>
           <div className="image-box-width">
-            <img src={worksecimg} className="sec-image" alt="" />
+            <img src={worksecimg} className="sec-image" alt="Palm tree work section image" />
           </div>
         </section>
         <section className="sec about-sec">
           <div className="image-box-width">
-            <img src={junglepalm} className="sec-image" alt="" />
+            <img src={junglepalm} className="sec-image" alt="Palm tree about section image" />
           </div>
           <div className="sec-box image-box-width">
             <h2 className="sec-title reveal">NOSOTROS</h2>
