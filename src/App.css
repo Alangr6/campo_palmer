@@ -170,9 +170,6 @@
   width: 50%;
 }
 /*for-about-sec*/
-.about-sec {
-  margin-bottom: 4vw;
-}
 .about-color {
   background-color: #FAF2EA;
   color: #A0ABA0;
@@ -184,47 +181,72 @@
 
 /*contact-sec*/
 .contact-sec {
-  position: fixed;
-  bottom: 0;
-  background-color: #faf2eac7;
-  color: #494d49;
-  height: 4vw;
-  width: 100%;
+  background-color:  #A0ABA0;
+  color: #ffffff;
   display: flex;
-}
-.contact-sec-title {
-  width: 40%;
-  font-size: 1vw;
-  display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
+  height: 15vw;
 }
-.number-box{
+.contact-sec > h2 {
+  font-size: 2vw;
+}
+form {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-evenly;
   width: 60%;
-  font-size: 1.2vw;
 }
+input {
+  width: 12vw;
+  height: 2.1vw;
+  background: none;
+  border: solid 2px black;
+  border-radius: 3px;
+  outline: none;
+  padding: 0.7vw;
+  font-weight: bold;
+}
+input::placeholder {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: black;
+  font-size: 0.9vw;
+}
+button {
+  width: 12vw;
+  height: 2.1vw;
+  color: whitesmoke;
+  font-size: 0.9vw;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  background-color: #1c1d1ccc;
+  border: none;
+  border-radius: 3px;
+}
+button:hover {
+  background-color: #000000;
+  transition: 1.2s;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
 
 /*scrollbar*/
 body::-webkit-scrollbar {
   width: 0.5vw;
   height: 0.5vw;
 }
-/* Ponemos un color de fondo y redondeamos las esquinas del thumb */
 body::-webkit-scrollbar-thumb {
   background: #8b8b8b;
   border-radius: 4px;
 }
-
-/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
 body::-webkit-scrollbar-thumb:hover {
   background: #b3b3b3;
   box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
 }
-
-/* Cambiamos el fondo cuando esté en active */
 body::-webkit-scrollbar-thumb:active {
   background-color: #999999;
 }
