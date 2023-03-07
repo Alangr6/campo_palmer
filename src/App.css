@@ -36,7 +36,9 @@
 }
 
 .box-logo {
-  padding: 0 0.9% 0 0.9%;
+  padding: 0 10px 0 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .logo {
@@ -405,6 +407,13 @@ body::-webkit-scrollbar-thumb:active {
 }
 
 @media (max-width: 900px) {
+  /*reveal effect*/
+  .reveal {
+    position: relative;
+    transform: translateY(0px);
+    opacity: 1;
+    transition: all 0 ease;
+  }
 
   /*work-sec and about-sec*/
   .image-box-width {
@@ -445,9 +454,6 @@ body::-webkit-scrollbar-thumb:active {
   /*HEADER*/
 
   /*NavBar*/
-  .box-logo {
-    padding: 0 4% 0 4%;
-  }
   .company-name {
     font-size: 1.3rem;
   }
