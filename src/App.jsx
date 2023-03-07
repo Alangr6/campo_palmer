@@ -59,9 +59,9 @@ function App() {
             />
           </div>
           <div className="page-title-box">
-            <h1>VENTA DE PALMERAS ALMERÍA</h1>
+            <h1>Venta de palmeras Almería</h1>
             <h1>-</h1>
-            <h1>CAMPO DE NÍJAR</h1>
+            <h1>Campo de Níjar</h1>
           </div>
           <div className="main-image-right">
             <img

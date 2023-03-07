@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloock&family=Inter:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;500&display=swap');
 
 /*SHOW IN EFFECT*/
 .reveal {
@@ -78,9 +79,10 @@
 .page-title-box {
   text-align: center;
   font-family: 'Raleway', sans-serif;
-  font-weight: 500;
+  font-family: 'Fira Sans Condensed', sans-serif;/*mirar tipografia*/
+  font-family: 'Gloock', serif;
   margin: auto;
-  font-size: 1.8vw;
+  font-size: 2.3vw;
   color: #f3ece6;
   grid-row: span 2;
   grid-column: 2;
