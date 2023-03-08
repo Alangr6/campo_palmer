@@ -228,7 +228,7 @@ function App() {
             href="https://wa.me/34672731783/?text=Hola%20Bienvenida%20a%20Campo%20Palmer"
             target="_blank"
           >
-            <img src={whasticon} width="50" height="50"></img>
+            <img src={whasticon} width="100%" height="auto" alt="whatsapp icon to create a conversation" title="whatsapp icon"></img>
           </a>
           <h3>+34 673 670 067</h3>
         </div>
