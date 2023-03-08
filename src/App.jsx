@@ -5,6 +5,7 @@ import palm2 from "./images/card2.webp";
 import palm3 from "./images/card3.webp";
 import aboutsecimg from "./images/about-sec.webp";
 import worksecimg from "./images/work-sec.webp";
+import whasticon from "./images/whatsapp_icon.png";
 import "./App.css";
 
 function App() {
@@ -109,8 +110,9 @@ function App() {
                 <h3 className="card-title reveal">GROWTH</h3>
                 <div className="card-separator reveal"></div>
                 <p className="reveal">
-                  Criadas respetando el medio ambiente en una finca con certificación ecológica,
-                  dentro del parque natural Cabo de Gata-Níjar.
+                  Criadas respetando el medio ambiente en una finca con
+                  certificación ecológica, dentro del parque natural Cabo de
+                  Gata-Níjar.
                 </p>
               </div>
             </div>
@@ -139,13 +141,26 @@ function App() {
           <div className="sec-box work-text-box-width">
             <h2 className="sec-title work-color reveal">TRABAJO</h2>
             <p className="reveal">
-              Nuestros principales productos son la Trachycarpus Fortunei y la Livistona Chinensis ambas cultivadas con execelentes cuidados y la mayor atención.
+              Nuestros principales productos son la Trachycarpus Fortunei y la
+              Livistona Chinensis ambas cultivadas con execelentes cuidados y la
+              mayor atención.
             </p>
             <p className="reveal">
-              La Trachycarpus fortunei es una hermosa palmera que se caracteriza por ser una de los tipos más resitentes al frío, estas pueden llegar asobrevivir por debajod e los 20ºC. Se reconoce por su tallo cubierto de una capa de pelo y por sus hojas alargadas y juntas en plamas en forma de abanico. Comunmente es conocida como palmera excelsa.
+              La Trachycarpus fortunei es una hermosa palmera que se caracteriza
+              por ser una de los tipos más resitentes al frío, estas pueden
+              llegar asobrevivir por debajod e los 20ºC. Se reconoce por su
+              tallo cubierto de una capa de pelo y por sus hojas alargadas y
+              juntas en plamas en forma de abanico. Comunmente es conocida como
+              palmera excelsa.
             </p>
             <p className="reveal">
-              La Livistona chinensis, nativa de asia, esta palmera puede utilizarse como palmera de interior o de exterior. Aunque prefire la luz solar, puede crecer perfectamente en ambientes de semisombra. Es muy utilizada por la amplitud de sus hojas palmeadas que pueden alcanzar más de 30 centímetros de ancho. A la Livistona chinensis también se le conoce comúnmente como palmera de abanico chino.
+              La Livistona chinensis, nativa de asia, esta palmera puede
+              utilizarse como palmera de interior o de exterior. Aunque prefire
+              la luz solar, puede crecer perfectamente en ambientes de
+              semisombra. Es muy utilizada por la amplitud de sus hojas
+              palmeadas que pueden alcanzar más de 30 centímetros de ancho. A la
+              Livistona chinensis también se le conoce comúnmente como palmera
+              de abanico chino.
             </p>
           </div>
           <div className="image-box-width">
@@ -199,10 +214,24 @@ function App() {
         <form action="https://formsubmit.co/@gmail.com" method="POST">
           <input type="text" name="name" id="" placeholder="Nombre" required />
           <input type="email" name="email" id="" placeholder="Email" required />
-          <input type="phone" name="phone" id="" placeholder="Teléfono" required />
+          <input
+            type="phone"
+            name="phone"
+            id=""
+            placeholder="Teléfono"
+            required
+          />
           <button type="submit">Enviar</button>
         </form>
-        <h3>+34 673 670 067</h3>
+        <div className="whatsapp-sec">
+          <a
+            href="https://wa.me/34672731783/?text=Hola%20Bienvenida%20a%20Campo%20Palmer"
+            target="_blank"
+          >
+            <img src={whasticon} width="50" height="50"></img>
+          </a>
+          <h3>+34 673 670 067</h3>
+        </div>
       </footer>
     </div>
   );

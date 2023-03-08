@@ -266,6 +266,13 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.whatsapp-sec {
+  display: flex;
+  align-items: center;
+  width: 11%;
+  justify-content: space-between;
+}
+
 /*scrollbar*/
 body::-webkit-scrollbar {
   width: 0.5vw;
@@ -488,8 +495,9 @@ body::-webkit-scrollbar-thumb:active {
   }
 
   .sec-title {
-    font-size: 5vw;
+    font-size: 6.5vw;
     padding-top: 3vh;
+    padding-bottom: 4vh;
   }
   /*contact-sec*/
   form {
@@ -524,10 +532,15 @@ body::-webkit-scrollbar-thumb:active {
   }
 
   footer>h2 {
-    font-size: 4vw !important;
+    font-size: 5vw !important;
   }
 
   footer>h3 {
-    font-size: 3vw;
+    font-size: 3.3vw;
+  }
+
+  .whatsapp-sec {
+    margin-top: 2vh;
+    width: 37%;
   }
 }
