@@ -75,7 +75,7 @@ function App() {
           </div>
         </section>
         <section className="first-sec">
-          <h2 className="box-sec-title reveal">CRIADAS ECOLÓGICAMENTE</h2>
+          <h2 className="box-sec-title reveal">CERTIFICACIÓN ECOLOGICA</h2>
           <div className="card-box">
             <div className="card reveal">
               <img
@@ -109,9 +109,8 @@ function App() {
                 <h3 className="card-title reveal">GROWTH</h3>
                 <div className="card-separator reveal"></div>
                 <p className="reveal">
-                  Nuestro producto final son las hermosas palmeras podadas, que
-                  han sido cuidadosamente moldeadas por expertos para resaltar
-                  su belleza natural.
+                  Criadas respetando el medio ambiente en una finca con certificación ecológica,
+                  dentro del parque natural Cabo de Gata-Níjar.
                 </p>
               </div>
             </div>
@@ -140,26 +139,13 @@ function App() {
           <div className="sec-box work-text-box-width">
             <h2 className="sec-title work-color reveal">TRABAJO</h2>
             <p className="reveal">
-              Palmera de aceite: También conocida como palma de aceite africana,
-              es una especie muy valiosa que produce un aceite rico en
-              nutrientes y ampliamente utilizado en la industria alimentaria.
-              Nuestras palmeras de aceite se cultivan de manera sostenible y
-              ecológica, garantizando la calidad y la pureza del aceite
-              producido.
+              Nuestros principales productos son la Trachycarpus Fortunei y la Livistona Chinensis ambas cultivadas con execelentes cuidados y la mayor atención.
             </p>
             <p className="reveal">
-              Palmera datilera: Originaria del norte de África y el Medio
-              Oriente, la palmera datilera produce frutos dulces y sabrosos
-              conocidos como dátiles. En Campo Palmer, cultivamos palmeras
-              datileras de alta calidad, garantizando que nuestros dátiles sean
-              deliciosos y saludables.
+              La Trachycarpus fortunei es una hermosa palmera que se caracteriza por ser una de los tipos más resitentes al frío, estas pueden llegar asobrevivir por debajod e los 20ºC. Se reconoce por su tallo cubierto de una capa de pelo y por sus hojas alargadas y juntas en plamas en forma de abanico. Comunmente es conocida como palmera excelsa.
             </p>
             <p className="reveal">
-              Palmera de coco: La palmera de coco es una especie versátil que
-              produce una variedad de productos, desde coco rallado hasta aceite
-              de coco y agua de coco. En Campo Palmer, nuestras palmeras de coco
-              se cultivan de manera ecológica y sostenible, garantizando que
-              nuestros productos de coco sean frescos y de alta calidad.
+              La Livistona chinensis, nativa de asia, esta palmera puede utilizarse como palmera de interior o de exterior. Aunque prefire la luz solar, puede crecer perfectamente en ambientes de semisombra. Es muy utilizada por la amplitud de sus hojas palmeadas que pueden alcanzar más de 30 centímetros de ancho. A la Livistona chinensis también se le conoce comúnmente como palmera de abanico chino.
             </p>
           </div>
           <div className="image-box-width">
