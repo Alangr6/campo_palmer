@@ -466,6 +466,31 @@ body::-webkit-scrollbar-thumb:active {
 
   /*MAIN*/
 
+  /*work-sec and about-sec*/
+  .sec {
+    flex-direction: column;
+  }
+
+  .image-box-width {
+    width: 100%;
+  }
+
+  .work-text-box-width {
+    order: 1;
+  }
+
+  .sec-box {
+    width: 100%;
+  }
+
+  .sec-box>p {
+    font-size: 3.2vw;
+  }
+
+  .sec-title {
+    font-size: 5vw;
+    padding-top: 3vh;
+  }
   /*contact-sec*/
   form {
     display: flex;
