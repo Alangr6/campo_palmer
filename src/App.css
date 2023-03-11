@@ -285,6 +285,10 @@ button:focus-visible {
   width: 3.4vw;
   margin-right: 10px;
 }
+.whatsapp-sec > a > img:hover {
+  width: 3.8vw;
+  transition: 1s;
+}
 .whatsapp-sec > a > h3 {
   width: 100%;
 }

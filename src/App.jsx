@@ -225,7 +225,7 @@ function App() {
         </form>
         <div className="whatsapp-sec">
           <a
-            href="https://wa.me/34673670067/?text=Hola,%20bienvenido%20a%20Campo%20Palmer"
+            href="https://wa.me/34673670067/?text=Buenas,%20vengo%20de%20su%20web%20Campo%20Palmer%20y%20tengo%20la%20siguiente%20duda"
             target="_blank"
           >
             <img
