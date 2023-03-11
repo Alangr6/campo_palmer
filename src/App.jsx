@@ -210,7 +210,7 @@ function App() {
         </section>
       </main>
       <footer className="contact-sec">
-        <h2>CONTACTANOS!</h2>
+        <h2>Cualquier consulta, no dude en contactarnos.</h2>
         <form action="https://formsubmit.co/@gmail.com" method="POST">
           <input type="text" name="name" id="" placeholder="Nombre" required />
           <input type="email" name="email" id="" placeholder="Email" required />
@@ -225,12 +225,18 @@ function App() {
         </form>
         <div className="whatsapp-sec">
           <a
-            href="https://wa.me/34672731783/?text=Hola%20Bienvenida%20a%20Campo%20Palmer"
+            href="https://wa.me/34673670067/?text=Hola,%20bienvenido%20a%20Campo%20Palmer"
             target="_blank"
           >
-            <img src={whasticon} width="100%" height="auto" alt="whatsapp icon to create a conversation" title="whatsapp icon"></img>
+            <img
+              src={whasticon}
+              width="100%"
+              height="auto"
+              alt="whatsapp icon to create a conversation"
+              title="whatsapp icon"
+            ></img>
+            <h3>+34 673 670 067</h3>
           </a>
-          <h3>+34 673 670 067</h3>
         </div>
       </footer>
     </div>

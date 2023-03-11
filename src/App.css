@@ -267,10 +267,26 @@ button:focus-visible {
 }
 
 .whatsapp-sec {
+  width: 16%;
+  font-size: 1vw;
+}
+
+.whatsapp-sec > a {
   display: flex;
   align-items: center;
-  width: 11%;
-  justify-content: space-evenly;
+  color: #ffffff;
+}
+
+.whatsapp-sec > a:hover{
+  color: #dfdfdf;
+  transition: 0.3s;
+}
+.whatsapp-sec > a > img {
+  width: 3.4vw;
+  margin-right: 10px;
+}
+.whatsapp-sec > a > h3 {
+  width: 100%;
 }
 
 /*scrollbar*/
@@ -329,40 +345,6 @@ body::-webkit-scrollbar-thumb:active {
   .sec-title {
     font-size: 2.5vw;
     padding-bottom: 2.7vh;
-  }
-
-
-  /*contact sec*/
-  .contact-sec {
-    height: 20vw;
-  }
-
-  form {
-    width: 95%;
-  }
-
-  footer>h2,
-  .whatsapp-sec>h3 {
-    margin-bottom: 5vh;
-    margin-top: 5vh;
-    font-size: 2vw;
-  }
-
-  input {
-    width: 16vw;
-    height: 3.1vw;
-    border: solid 2px black;
-    border-radius: 5px;
-  }
-
-  input::placeholder {
-    font-size: 1.3vw;
-  }
-
-  button {
-    width: 16vw;
-    height: 3.1vw;
-    font-size: 1.3vw;
   }
 }
 
@@ -514,6 +496,12 @@ body::-webkit-scrollbar-thumb:active {
     height: auto;
   }
 
+  .contact-sec > h2 {
+    font-size: 4vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+  }
+
   input {
     width: 100%;
     height: 5.1vw;
@@ -531,21 +519,19 @@ body::-webkit-scrollbar-thumb:active {
     font-size: 2.5vw;
   }
 
-  .contact-sec>h2 {
-    font-size: 5vw;
-  }
-
-  .whatsapp-sec>h2,
-  .whatsapp-sec>h3 {
-    font-size: 5vw !important;
-  }
-
   .whatsapp-sec {
-    margin-top: 2vh;
-    width: 55%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
   }
 
-  .whatsapp-sec > a{
-    width: 20%;
+  .whatsapp-sec > a > img {
+    width: 5vw;
+  }
+
+  .whatsapp-sec > a > h3 {
+    font-size: 4vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
   }
 }
