@@ -211,7 +211,7 @@ function App() {
       </main>
       <footer className="contact-sec">
         <h2>Cualquier consulta, no dude en contactarnos.</h2>
-        <form action="https://formsubmit.co/@gmail.com" method="POST">
+        <form action="https://formsubmit.co/josemontoyanieto@gmail.com" method="POST">
           <input type="text" name="name" id="" placeholder="Nombre" required />
           <input type="email" name="email" id="" placeholder="Email" required />
           <input
