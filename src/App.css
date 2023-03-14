@@ -419,7 +419,7 @@ body::-webkit-scrollbar-thumb:active {
 
   .contact-sec > h2 {
     font-size: 3vw;
-    margin-top: 3vw;
-    margin-bottom: 3vw;
+    margin-top: 0.9vw;
+    margin-bottom: 0.9vw;
   }
 }
