@@ -212,7 +212,7 @@ function App() {
       <footer className="contact-sec">
         <h2>Cualquier consulta, no dude en contactarnos.</h2>
         <h2>josemontoyanieto@gmail.com</h2>
-        <h3>+34 673 670 067</h3>
+        <h2>+34 673 670 067</h2>
       </footer>
     </div>
   );
