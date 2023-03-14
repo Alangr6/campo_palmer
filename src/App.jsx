@@ -211,33 +211,8 @@ function App() {
       </main>
       <footer className="contact-sec">
         <h2>Cualquier consulta, no dude en contactarnos.</h2>
-        <form action="https://formsubmit.co/josemontoyanieto@gmail.com" method="POST">
-          <input type="text" name="name" id="" placeholder="Nombre" required />
-          <input type="email" name="email" id="" placeholder="Email" required />
-          <input
-            type="phone"
-            name="phone"
-            id=""
-            placeholder="Teléfono"
-            required
-          />
-          <button type="submit">Enviar</button>
-        </form>
-        <div className="whatsapp-sec">
-          <a
-            href="https://wa.me/34673670067/?text=Buenas,%20vengo%20de%20su%20web%20Campo%20Palmer%20y%20tengo%20la%20siguiente%20duda"
-            target="_blank"
-          >
-            <img
-              src={whasticon}
-              width="100%"
-              height="auto"
-              alt="whatsapp icon to create a conversation"
-              title="whatsapp icon"
-            ></img>
-            <h3>+34 673 670 067</h3>
-          </a>
-        </div>
+        <h2>josemontoyanieto@gmail.com</h2>
+        <h3>+34 673 670 067</h3>
       </footer>
     </div>
   );
